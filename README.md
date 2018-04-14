@@ -6,6 +6,9 @@
 如遇到 Python 对于代码中的中文报错，请在代码前加入：
 
 #-*-coding:utf-8-*- # 声明此文件为 UTF-8 格式
+
 import sys
+
 reload(sys)
-sys.setdefaultencoding('utf-8') # 进一步要求 python 使用 UTF-8
+
+sys.setdefaultencoding('utf-8') # 进一步要求 python 使用 UTF-8`
